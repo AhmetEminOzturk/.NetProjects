@@ -1,0 +1,12 @@
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\bin\Debug\RentACar.EntityLayer.dll.config
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\bin\Debug\RentACar.EntityLayer.dll
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\bin\Debug\RentACar.EntityLayer.pdb
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\bin\Debug\EntityFramework.dll
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\bin\Debug\EntityFramework.xml
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\obj\Debug\RentACar.EntityLayer.csproj.AssemblyReference.cache
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\obj\Debug\RentACar.EntityLayer.csproj.CoreCompileInputs.cache
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\obj\Debug\RentACar.EntityLayer.csproj.CopyComplete
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\obj\Debug\RentACar.EntityLayer.dll
+D:\Udemy\RentACar.PresentationLayer\RentACar.EntityLayer\obj\Debug\RentACar.EntityLayer.pdb
