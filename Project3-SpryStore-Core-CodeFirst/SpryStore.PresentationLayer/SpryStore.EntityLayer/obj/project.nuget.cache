@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VRKAY6GcQZxXs7HM40xkN7roHkBR4uSO6iT0VUT5h/OhB3o1MbM+vrzOPAbTN8r9QrKL4+jF6dGSoWuPJcIPCw==",
+  "dgSpecHash": "WiJSxGD6y0RBNWuG6ca9U6/hJl8+aEyBIr/92fN5vvGOwqoPTK54sksbnJRPXKNGPxktusxYNUSNBruKwnKxiw==",
   "success": true,
-  "projectFilePath": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj",
+  "projectFilePath": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emina\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\emina\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

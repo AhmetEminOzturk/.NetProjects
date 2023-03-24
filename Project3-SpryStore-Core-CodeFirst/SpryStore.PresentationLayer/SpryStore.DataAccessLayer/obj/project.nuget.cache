@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kiU1CPoasfxYOC5NvTBj2Id97iRR0pUxdKFfGiiv6aNzu5t1Zzm7Xb3g/2oA7E6R8SPCbol9Ydom1OCFLWMjYg==",
+  "dgSpecHash": "3X+Oag5IzmytNl3zSpUMFeoVL+9+giqVtR2utCvs6kXcgavOi6QXRmaFEvKIHTpKRXCVCNFtJrHWW7nvnIVfTQ==",
   "success": true,
-  "projectFilePath": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj",
+  "projectFilePath": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emina\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\emina\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

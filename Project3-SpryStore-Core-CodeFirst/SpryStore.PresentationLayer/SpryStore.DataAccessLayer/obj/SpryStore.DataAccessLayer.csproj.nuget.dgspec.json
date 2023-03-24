@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj": {}
+    "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj": {
+    "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj",
         "projectName": "SpryStore.DataAccessLayer",
-        "projectPath": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj",
+        "projectPath": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\SpryStore.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\obj\\",
+        "outputPath": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj": {
-                "projectPath": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj"
+              "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj": {
+                "projectPath": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj": {
+    "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj",
+        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj",
         "projectName": "SpryStore.EntityLayer",
-        "projectPath": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj",
+        "projectPath": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\SpryStore.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\obj\\",
+        "outputPath": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

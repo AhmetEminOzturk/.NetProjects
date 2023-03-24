@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fF4J4bOljptpsVpXJkHN9qxUrfVNtbJwJGgVgZnNN54io+e73MOT1OWoRjsQw+RtqgRelGs/Ts5Q7KlS1SDImQ==",
+  "dgSpecHash": "v1J5ahZsXGw0QVBErsndj4m6HHqDEECmCK5aw9n1bAPj/63J1uHWultE1ZRmLXNIoBflyhi0ypm8Z1kBPRTrZw==",
   "success": true,
-  "projectFilePath": "D:\\Udemy\\SpryStore.PresentationLayer\\SpryStore.PresentationLayer\\SpryStore.PresentationLayer.csproj",
+  "projectFilePath": "D:\\GitHub\\.NetProjects\\Project3-SpryStore-Core-CodeFirst\\SpryStore.PresentationLayer\\SpryStore.PresentationLayer\\SpryStore.PresentationLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emina\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\emina\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",

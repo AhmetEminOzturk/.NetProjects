@@ -1,7 +1,7 @@
 ﻿@model Product
 @{
     ViewData["Title"] = "AddProduct";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
 <form method="post">
@@ -11,11 +11,14 @@
     <label>Ürün Fiyatı</label>
     <input type="text" class="form-control" asp-for="Price" />
     <br />
+    <label>Ürün Görsel</label>
+    <input type="text" class="form-control" asp-for="Image" />
+    <br />
     <label>Ürün Kategorisi</label>
-    <input type="text" class="form-control" asp-for="CategoryID" />
+    @Html.DropDownListFor(x=> x.CategoryID, (List<SelectListItem>)ViewBag.v, new {@class = "form-control"})
     <br />
     <label>Ürün Açıklaması</label>
-    <input type="text" class="form-control" asp-for="Description" />
+    <textarea rows="5" asp-for="Description" class="form-control"></textarea>
     <br />
     <button class="btn btn-info">Ürünü Ekle</button>
 </form>
