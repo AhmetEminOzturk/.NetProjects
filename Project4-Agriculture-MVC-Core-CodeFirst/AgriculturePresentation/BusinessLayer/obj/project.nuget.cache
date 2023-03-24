@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kTUKXQdJe8wn0lik9mU1ahUp8LQkytO+imby4/PFg1owpONy8O5gg3QcWxcVfGTQKuGQLP2AmNP2oZCg30fWJA==",
+  "dgSpecHash": "f/ZWqb8+TBCzpSgNAkwdngrTpfwboAqJ46fknyl8FjXzVk7ZLjNBt+X/Wj+uznMJSPGUc/CtdgMeLtin+U2VtA==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\emina\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\emina\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\emina\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\emina\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\emina\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\emina\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
