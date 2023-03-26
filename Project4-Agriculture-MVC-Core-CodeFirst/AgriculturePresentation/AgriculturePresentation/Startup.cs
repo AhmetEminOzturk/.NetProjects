@@ -30,10 +30,29 @@ namespace AgriculturePresentation
         {
             services.AddScoped<IServiceService, ServiceManager>();
             services.AddScoped<IServiceDal, EfServiceDal>();
+
             services.AddScoped<IEmployeeService, EmployeeManager>();
             services.AddScoped<IEmployeeDal, EfEmployeeDal>();
 
-            services.AddDbContext<AgricultureContext>();
+            services.AddScoped<IAnnouncementService, AnnouncementManager>();
+            services.AddScoped<IAnnouncementDal, EfAnnouncementDal>();
+
+            services.AddScoped<IImageService, ImageManager>();
+            services.AddScoped<IImageDal, EfImageDal>();
+
+            services.AddScoped<IAddressService, AddressManager>();
+            services.AddScoped<IAddressDal, EfAddressDal>();
+
+            services.AddScoped<IContactService, ContactManager>();
+            services.AddScoped<IContactDal, EfContactDal>();
+
+            services.AddScoped<ISocialMediaService, SocialMediaManager>();
+            services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
+
+			services.AddScoped<IAboutService, AboutManager>();
+			services.AddScoped<IAboutDal, EfAboutDal>();
+
+			services.AddDbContext<AgricultureContext>();
             services.AddControllersWithViews();
         }
 
