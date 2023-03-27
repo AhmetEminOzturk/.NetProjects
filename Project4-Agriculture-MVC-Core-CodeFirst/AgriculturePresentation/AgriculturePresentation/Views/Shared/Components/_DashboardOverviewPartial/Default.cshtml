@@ -4,11 +4,11 @@
             <div class="card-body dashboard-tabs p-0">
                 <ul class="nav nav-tabs px-4" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="overview-tab" data-bs-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="true">İstatistik 1</a>
+                        <a class="nav-link active" id="overview-tab" data-bs-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="true">İstatistik</a>
                     </li>
-                    <li class="nav-item">
+            @*        <li class="nav-item">
                         <a class="nav-link" id="sales-tab" data-bs-toggle="tab" href="#sales" role="tab" aria-controls="sales" aria-selected="false">İstatistik 2</a>
-                    </li>
+                    </li>*@
                     <li class="nav-item">
                         <a class="nav-link" id="purchases-tab" data-bs-toggle="tab" href="#purchases" role="tab" aria-controls="purchases" aria-selected="false">Ekip Arkadaşlarımız ve Roller</a>
                     </li>
@@ -29,28 +29,28 @@
                                 </div>
                             </div>
                             <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
-                                <i class="mdi mdi-currency-usd me-3 icon-lg text-danger"></i>
+                                <i class="mdi mdi-contacts me-3 icon-lg text-danger"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                     <small class="mb-1 text-muted">Çalışan Sayısı</small>
                                     <h5 class="me-2 mb-0">@ViewBag.teamCount</h5>
                                 </div>
                             </div>
                             <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
-                                <i class="mdi mdi-eye me-3 icon-lg text-success"></i>
+                                <i class="mdi mdi-apple me-3 icon-lg text-success"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                     <small class="mb-1 text-muted">Hizmet Sayısı</small>
                                     <h5 class="me-2 mb-0">@ViewBag.serviceCount</h5>
                                 </div>
                             </div>
                             <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
-                                <i class="mdi mdi-download me-3 icon-lg text-warning"></i>
+                                <i class="mdi mdi-message me-3 icon-lg text-warning"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                     <small class="mb-1 text-muted">Gelen Mesaj</small>
                                     <h5 class="me-2 mb-0">@ViewBag.messageCount</h5>
                                 </div>
                             </div>
                             <div class="d-flex py-3 border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
-                                <i class="mdi mdi-flag me-3 icon-lg text-danger"></i>
+                                <i class="mdi mdi-message-alert me-3 icon-lg text-danger"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                     <small class="mb-1 text-muted">Bu Ay Gelen Mesaj</small>
                                     <h5 class="me-2 mb-0">@ViewBag.currentMonthMessage</h5>
@@ -109,7 +109,7 @@
                     <div class="tab-pane fade" id="purchases" role="tabpanel" aria-labelledby="purchases-tab">
                         <div class="d-flex flex-wrap justify-content-xl-between">
                             <div class="d-none d-xl-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
-                                <i class="mdi mdi-calendar-heart icon-lg me-3 text-primary"></i>
+                                @*<i class="mdi mdi-calendar-heart icon-lg me-3 text-primary"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                     <small class="mb-1 text-muted">Start date</small>
                                     <div class="dropdown">
@@ -122,31 +122,31 @@
                                             <a class="dropdown-item" href="#">21 Oct 2018</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div>*@
                             </div>
                             <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
-                                <i class="mdi mdi-currency-usd me-3 icon-lg text-danger"></i>
+                                <i class="mdi mdi-contacts me-3 icon-lg text-danger"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                     <small class="mb-1 text-muted">Bakliyat Yönetimi</small>
                                     <h5 class="me-2 mb-0">@ViewBag.bakliyatYonetimi</h5>
                                 </div>
                             </div>
                             <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
-                                <i class="mdi mdi-eye me-3 icon-lg text-success"></i>
+                                <i class="mdi mdi-contacts me-3 icon-lg text-success"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                     <small class="mb-1 text-muted">Ürün Pazarlama</small>
                                     <h5 class="me-2 mb-0">@ViewBag.urunPazarlama</h5>
                                 </div>
                             </div>
                             <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
-                                <i class="mdi mdi-download me-3 icon-lg text-warning"></i>
+                                <i class="mdi mdi-contacts me-3 icon-lg text-warning"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                     <small class="mb-1 text-muted">Sü Üretici</small>
                                     <h5 class="me-2 mb-0">@ViewBag.sutUretici</h5>
                                 </div>
                             </div>
                             <div class="d-flex py-3 border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
-                                <i class="mdi mdi-flag me-3 icon-lg text-danger"></i>
+                                <i class="mdi mdi-contacts me-3 icon-lg text-danger"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                     <small class="mb-1 text-muted">Gübre Yönetimi</small>
                                     <h5 class="me-2 mb-0">@ViewBag.gubreYonetimi</h5>
