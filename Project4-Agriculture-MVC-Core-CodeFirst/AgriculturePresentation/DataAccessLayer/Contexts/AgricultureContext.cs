@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Contexts
 {
-    public class AgricultureContext:DbContext
+    public class AgricultureContext:IdentityDbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -22,5 +23,6 @@ namespace DataAccessLayer.Contexts
         public DbSet<Employee> Employees { get; set; }
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<About> Abouts { get; set; }
+        public DbSet<Admin> Admins { get; set; }
     }
 }
