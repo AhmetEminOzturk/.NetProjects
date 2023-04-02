@@ -26,6 +26,7 @@
       <PropertyRef Name="ID" />
     </Key>
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="varchar" MaxLength="30" />
     <Property Name="Description" Type="varchar" MaxLength="250" />
   </EntityType>
   <EntityType Name="TblContact">
@@ -74,6 +75,17 @@
     </Key>
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Skills" Type="varchar" MaxLength="100" />
+    <Property Name="Percentage" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="TblSocialMedia">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="30" />
+    <Property Name="Link" Type="varchar" MaxLength="100" />
+    <Property Name="Icon" Type="varchar" MaxLength="30" />
+    <Property Name="Status" Type="bit" />
   </EntityType>
   <EntityContainer Name="DbCvModelStoreContainer">
     <EntitySet Name="TblAbout" EntityType="Self.TblAbout" Schema="dbo" store:Type="Tables" />
@@ -84,5 +96,6 @@
     <EntitySet Name="TblExperiences" EntityType="Self.TblExperiences" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblHobbies" EntityType="Self.TblHobbies" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblSkills" EntityType="Self.TblSkills" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblSocialMedia" EntityType="Self.TblSocialMedia" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

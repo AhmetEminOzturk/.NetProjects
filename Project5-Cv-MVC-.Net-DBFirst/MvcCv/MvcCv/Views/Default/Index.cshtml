@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Cv HomePage</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -26,7 +26,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Clarence Taylor</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="~/Templates/startbootstrap-resume-gh-pages/assets/img/profile.jpg" alt="" /></span>
+            @foreach (var item in Model)
+            {
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="@item.Image" alt="" /></span>
+            }
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -52,17 +55,30 @@
                         @item.Name
                         <span class="text-primary">@item.Surname</span>
                     </h1>
-                    <div class="subheading mb-5">
-                        @item.Address @item.PhoneNumber ·
-                        <a href="@item.Mail">@item.Mail</a>
+                    <div class="mb-5">
+                        @item.Address ---- Email İletişim:
+                        <a href="mailto:@item.Mail">@item.Mail</a>
                     </div>
-                    <p class="lead mb-5">@item.Description</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
-                    </div>
+                    <p class="lead mb-5">
+                        Merhaba,
+                    </p>
+                    <p class="lead mb-4">@item.Description</p>
+                    <p class="lead mb-4">
+                        Anadolu Üniversitesi İşletme Bölümü'nden mezun oldum. Şu anda ise Anadolu Üniversitesi Yönetim Bilişim Sistemleri bölümünde öğrenciyim.
+                    </p>
+                    <p class="lead mb-4">
+                        Daha önce  tekstil sektöründe çeşitli departmanlarda çalıştığım için iş dünyasının farklı yönlerini anlama fırsatı buldum. Satın alma departmanında, işletmenin malzemelerinin en uygun fiyat ve kalite ile temin edilmesi için çalıştım. Finans departmanında, işletmenin gelir-giderlerinin takibini yaparak, mali durumunun sağlıklı bir şekilde yönetilmesine katkı sağladım. İnsan kaynakları departmanında ise, personel seçim ve yerleştirme süreçlerinde yer aldım.İyi bir dinleyici ve sorun çözücü olmak gibi özelliklerimi kullanarak, işletmenin insan kaynakları yönetimine katkı sağladım.
+                    </p>
+                    <p class="lead mb-4">
+                        Ayrıca, yazılım geliştirme konusunda kendimi daha ileri seviyelere taşımak için birçok proje kampına katıldım. İstanbul Eğitim Akademi Full Stack .Net Proje Kampı ve Turkcell Geleceği Yazanlar .Net Proje Kampı gibi sektörün önde gelen eğitimlerine katılmak, yazılım geliştirme konusunda kendimi geliştirmeme katkı sağladı.
+                    </p>
+                    <p class="lead mb-4">
+                        En önemli bulduğum özelliklerim, sürekli olarak öğrenmeye ve kendimi geliştirmeye açık olmam, yaratıcı ve analitik düşünme becerilerine sahip olmam ve bunun yanı sıra, ekip çalışmasına yatkın olmamdır. Çalışma arkadaşlarımla birlikte uyum içerisinde çalışarak projelerimizin daha üst bir seviyeye ulaşmasını sağlamak için elimden geleni yapmayı hazırım.
+                    </p>
+                    <p class="lead mb-3">
+                        Sizlerle de bu özelliklerimi paylaşarak iş dünyasındaki hedeflerime doğru ilerlemek için birlikte çalışmak isterim.İlgilendiğiniz için teşekkür ederim.
+                    </p>
+                    @Html.Action("SocialMedia")
                 </div>
             </section>
         }

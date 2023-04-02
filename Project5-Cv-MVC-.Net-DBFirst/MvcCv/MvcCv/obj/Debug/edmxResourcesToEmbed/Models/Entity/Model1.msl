@@ -27,6 +27,7 @@
     <EntitySetMapping Name="TblCertificates">
       <EntityTypeMapping TypeName="DbCvModel.TblCertificates">
         <MappingFragment StoreEntitySet="TblCertificates">
+          <ScalarProperty Name="Date" ColumnName="Date" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Description" ColumnName="Description" />
         </MappingFragment>
@@ -79,8 +80,20 @@
     <EntitySetMapping Name="TblSkills">
       <EntityTypeMapping TypeName="DbCvModel.TblSkills">
         <MappingFragment StoreEntitySet="TblSkills">
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Skills" ColumnName="Skills" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblSocialMedia">
+      <EntityTypeMapping TypeName="DbCvModel.TblSocialMedia">
+        <MappingFragment StoreEntitySet="TblSocialMedia">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Icon" ColumnName="Icon" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
