@@ -1,0 +1,123 @@
+﻿@using MvcCv.Models.Entity
+@model List<TblAbout>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Cv HomePage</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="~/Templates/startbootstrap-resume-gh-pages/css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Clarence Taylor</span>
+            @foreach (var item in Model)
+            {
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="@item.Image" alt="" /></span>
+            }
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Hakkımda</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Deneyimlerim</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Eğitim Hayatım</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Yeteneklerim</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Hobilerim</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Sertifikalarım</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        @foreach (var item in Model)
+        {
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        @item.Name
+                        <span class="text-primary">@item.Surname</span>
+                    </h1>
+                    <div class="mb-5">
+                        @item.Address ---- Email İletişim:
+                        <a href="mailto:@item.Mail">@item.Mail</a>
+                    </div>
+                    <p class="lead mb-5">
+                        Merhaba,
+                    </p>
+                    <p class="lead mb-4">@item.Description</p>
+                    <p class="lead mb-4">
+                        Anadolu Üniversitesi İşletme Bölümü'nden mezun oldum. Şu anda ise Anadolu Üniversitesi Yönetim Bilişim Sistemleri bölümünde öğrenciyim.
+                    </p>
+                    <p class="lead mb-4">
+                        Daha önce  tekstil sektöründe çeşitli departmanlarda çalıştığım için iş dünyasının farklı yönlerini anlama fırsatı buldum. Satın alma departmanında, işletmenin malzemelerinin en uygun fiyat ve kalite ile temin edilmesi için çalıştım. Finans departmanında, işletmenin gelir-giderlerinin takibini yaparak, mali durumunun sağlıklı bir şekilde yönetilmesine katkı sağladım. İnsan kaynakları departmanında ise, personel seçim ve yerleştirme süreçlerinde yer aldım.İyi bir dinleyici ve sorun çözücü olmak gibi özelliklerimi kullanarak, işletmenin insan kaynakları yönetimine katkı sağladım.
+                    </p>
+                    <p class="lead mb-4">
+                        Ayrıca, yazılım geliştirme konusunda kendimi daha ileri seviyelere taşımak için birçok proje kampına katıldım. İstanbul Eğitim Akademi Full Stack .Net Proje Kampı ve Turkcell Geleceği Yazanlar .Net Proje Kampı gibi sektörün önde gelen eğitimlerine katılmak, yazılım geliştirme konusunda kendimi geliştirmeme katkı sağladı.
+                    </p>
+                    <p class="lead mb-4">
+                        En önemli bulduğum özelliklerim, sürekli olarak öğrenmeye ve kendimi geliştirmeye açık olmam, yaratıcı ve analitik düşünme becerilerine sahip olmam ve bunun yanı sıra, ekip çalışmasına yatkın olmamdır. Çalışma arkadaşlarımla birlikte uyum içerisinde çalışarak projelerimizin daha üst bir seviyeye ulaşmasını sağlamak için elimden geleni yapmayı hazırım.
+                    </p>
+                    <p class="lead mb-3">
+                        Sizlerle de bu özelliklerimi paylaşarak iş dünyasındaki hedeflerime doğru ilerlemek için birlikte çalışmak isterim.İlgilendiğiniz için teşekkür ederim.
+                    </p>
+                    @Html.Action("SocialMedia")
+                </div>
+            </section>
+        }
+
+        <hr class="m-0" />
+        <!-- Experience-->
+        <section class="resume-section" id="experience">
+            @Html.Action("Experience")
+        </section>
+        <hr class="m-0" />
+        <!-- Education-->
+        @Html.Action("Education")
+        <hr class="m-0" />
+        <!-- Skills-->
+        <section class="resume-section" id="skills">
+            @Html.Action("Skills")
+        </section>
+        <hr class="m-0" />
+        <!-- Interests-->
+        <section class="resume-section" id="interests">
+            @Html.Action("Hobbies")
+        </section>
+        <hr class="m-0" />
+        <!-- Awards-->
+        <section class="resume-section" id="awards">
+            @Html.Action("Certificates")
+        </section>
+        <!-- Contact-->
+        <section class="resume-section" id="contact">
+            @Html.Action("Contact")
+        </section>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="~/Templates/startbootstrap-resume-gh-pages/js/scripts.js"></script>
+</body>
+</html>
+
