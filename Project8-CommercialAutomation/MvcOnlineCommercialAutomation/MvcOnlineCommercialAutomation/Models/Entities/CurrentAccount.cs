@@ -13,11 +13,12 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         public int CurrentAccountID { get; set; }
 
         [Column(TypeName = "Varchar")]
-        [StringLength(30)]
+        [StringLength(30, ErrorMessage ="En fazla 30 karakter yazabilirsiniz")]
         public string CurrentAccountName { get; set; }
 
         [Column(TypeName = "Varchar")]
         [StringLength(30)]
+        [Required(ErrorMessage ="Bu alanı boş geçemezsiniz")]
         public string CurrentAccountSurname { get; set; }
 
         [Column(TypeName = "Varchar")]
