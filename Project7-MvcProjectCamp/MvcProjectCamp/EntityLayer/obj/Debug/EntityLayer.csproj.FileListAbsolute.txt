@@ -1,0 +1,12 @@
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\bin\Debug\EntityLayer.dll.config
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\bin\Debug\EntityLayer.dll
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\bin\Debug\EntityLayer.pdb
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\bin\Debug\EntityFramework.dll
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\bin\Debug\EntityFramework.xml
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.dll
+D:\GitHub\.NetProjects\Project7-MvcProjectCamp\MvcProjectCamp\EntityLayer\obj\Debug\EntityLayer.pdb
