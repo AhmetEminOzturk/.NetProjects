@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.PresentationLayer", "Api.PresentationLayer\Api.PresentationLayer.csproj", "{541E4B43-38E9-478D-B59D-14C62F52AC29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.PresentationLayer", "Api.PresentationLayer\Api.PresentationLayer.csproj", "{541E4B43-38E9-478D-B59D-14C62F52AC29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.EntityLayer", "Api.EntityLayer\Api.EntityLayer.csproj", "{F3F0ECDA-01BC-4336-8C45-0E1A646BFF14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.EntityLayer", "Api.EntityLayer\Api.EntityLayer.csproj", "{F3F0ECDA-01BC-4336-8C45-0E1A646BFF14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.DataAccessLayer", "Api.DataAccessLayer\Api.DataAccessLayer.csproj", "{474DC106-DB20-40ED-B9B4-891477A4A56E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.DataAccessLayer", "Api.DataAccessLayer\Api.DataAccessLayer.csproj", "{474DC106-DB20-40ED-B9B4-891477A4A56E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.BusinessLayer", "Api.BusinessLayer\Api.BusinessLayer.csproj", "{A7C67A26-863E-4692-8712-A16A6FDAF01C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.BusinessLayer", "Api.BusinessLayer\Api.BusinessLayer.csproj", "{A7C67A26-863E-4692-8712-A16A6FDAF01C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiConsumeLayer", "ApiConsumeLayer\ApiConsumeLayer.csproj", "{ECEC24B9-834A-4FC8-8E7E-0489A7675226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A7C67A26-863E-4692-8712-A16A6FDAF01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7C67A26-863E-4692-8712-A16A6FDAF01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7C67A26-863E-4692-8712-A16A6FDAF01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEC24B9-834A-4FC8-8E7E-0489A7675226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEC24B9-834A-4FC8-8E7E-0489A7675226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEC24B9-834A-4FC8-8E7E-0489A7675226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEC24B9-834A-4FC8-8E7E-0489A7675226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

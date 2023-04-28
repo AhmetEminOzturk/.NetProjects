@@ -43,6 +43,17 @@ namespace Api.PresentationLayer
             services.AddScoped<IActivityService, ActivityManager>();
 
             services.AddControllers();
+
+
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("ApiCors", opts =>
+                {
+                    opts.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api.PresentationLayer", Version = "v1" });
@@ -60,6 +71,8 @@ namespace Api.PresentationLayer
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("ApiCors");
 
             app.UseRouting();
 

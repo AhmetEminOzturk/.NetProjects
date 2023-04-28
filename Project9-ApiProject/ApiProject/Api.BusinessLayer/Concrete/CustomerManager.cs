@@ -28,6 +28,11 @@ namespace Api.BusinessLayer.Concrete
             return _customerDal.GetById(id);
         }
 
+        public int TGetCustomerCount()
+        {
+            return _customerDal.GetCustomerCount();
+        }
+
         public List<Customer> TGetList()
         {
             return _customerDal.GetList();

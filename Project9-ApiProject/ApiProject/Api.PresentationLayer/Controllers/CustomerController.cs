@@ -47,5 +47,11 @@ namespace Api.PresentationLayer.Controllers
             var values = _customerService.TGetById(id);
             return Ok(values);
         }
+
+        [HttpGet("{GetCustomerCount}")]
+        public IActionResult GetCustomerCount()
+        {
+            return Ok(_customerService.TGetCustomerCount());
+        }
     }
 }

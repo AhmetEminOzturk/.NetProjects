@@ -9,5 +9,6 @@ namespace Api.BusinessLayer.Abstract
 {
     public interface ICustomerService : IGenericService<Customer>
     {
+        int TGetCustomerCount();
     }
 }

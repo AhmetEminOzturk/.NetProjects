@@ -9,5 +9,6 @@ namespace Api.DataAccessLayer.Abstract
 {
     public interface ICustomerDal:IGenericDal<Customer>
     {
+        int GetCustomerCount();
     }
 }

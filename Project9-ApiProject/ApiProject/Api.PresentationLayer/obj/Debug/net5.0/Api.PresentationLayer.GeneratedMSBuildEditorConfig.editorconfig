@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Api.PresentationLayer
-build_property.ProjectDir = D:\GitHub\.NetProjects\Project9\ApiProject\Api.PresentationLayer\
+build_property.ProjectDir = D:\GitHub\.NetProjects\Project9-ApiProject\ApiProject\Api.PresentationLayer\

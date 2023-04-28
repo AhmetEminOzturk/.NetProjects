@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f7F4YUeYfA/gAFQ+kkiumiMh0SZLgJWgeM4zDohupely30dKwrYDIfiQPORgsaMcl/dL4NOpN9LtOqTOsqJ/ww==",
+  "dgSpecHash": "WbJFyXpEbmGerFngaXZ/aZB8s37LSaL+PKODsmcD8C1jzqxrGa2jE3skM4JivOX2KxHV/KcMDSD8HXfjjpgWQQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\.NetProjects\\Project9\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj",
+  "projectFilePath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emina\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\emina\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
