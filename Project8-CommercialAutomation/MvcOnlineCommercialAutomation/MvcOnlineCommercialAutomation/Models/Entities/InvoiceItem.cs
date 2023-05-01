@@ -18,6 +18,8 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }
         public decimal Amount { get; set; }
-        public Invoice Invoice { get; set; }
+        public int InvoiceID { get; set; }
+        public virtual Invoice Invoice { get; set; }
+
     }
 }

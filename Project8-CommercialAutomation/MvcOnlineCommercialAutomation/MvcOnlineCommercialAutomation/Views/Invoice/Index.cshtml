@@ -1,0 +1,42 @@
+﻿@using MvcOnlineCommercialAutomation.Models.Entities
+@model List<Invoice>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Faturalar</h2>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Seri No</th>
+        <th>Sıra No</th>
+        <th>Vergi Dairesi</th>
+        <th>Tarih</th>
+        <th>Saat</th>
+        <th>Teslim Eden</th>
+        <th>Teslim Alan</th>
+        <th>Toplam</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.InvoiceID</td>
+            <td>@item.InvoiceSerialNo</td>
+            <td>@item.InvoiceSequenceNo</td>
+            <td>@item.TaxOffice</td>
+            <td>@item.Date</td>
+            <td>@item.Time</td>
+            <td>@item.Deliverer</td>
+            <td>@item.Receiver</td>
+            <td>@item.Amount</td>
+            <td><a href="/Invoice/UpdateInvoice/@item.InvoiceID" class="btn btn-info">Güncelle</a></td>
+            <td><a href="/Invoice/DetailInvoice/@item.InvoiceID" class="btn btn-warning">Detaylar</a></td>
+        </tr>
+    }
+</table>
+<a href="/Invoice/AddInvoice/" class="btn btn-success">Fatura Ekle</a>
+ 

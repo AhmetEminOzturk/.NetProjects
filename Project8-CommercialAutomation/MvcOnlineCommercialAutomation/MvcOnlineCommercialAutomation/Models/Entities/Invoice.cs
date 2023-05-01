@@ -24,15 +24,20 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         [Column(TypeName = "Varchar")]
         [StringLength(60)]
         public string TaxOffice { get; set; }
-        public DateTime Time { get; set; }
 
         [Column(TypeName = "Varchar")]
+        [StringLength(5)]
+        public string Time { get; set; }
+
+        [Column(TypeName = "Char")]
         [StringLength(30)]
         public string Deliverer { get; set; }
 
         [Column(TypeName = "Varchar")]
         [StringLength(30)]
         public string Receiver { get; set; }
+
+        public decimal Amount { get; set; }
         public ICollection<InvoiceItem> InvoiceItems { get; set; }
 
     }
