@@ -15,7 +15,6 @@
         <th>Alış Fiyat</th>
         <th>Satış Fiyat</th>
         <th>Kategori</th>
-        <th>Görsel</th>
         <th>Sil</th>
         <th>Güncelle</th>
     </tr>
@@ -29,7 +28,6 @@
             <td>@item.PurchasePrice</td>
             <td>@item.SalePrice</td>
             <td>@item.Category.CategoryName</td>
-            <td>@item.ProductImage</td>
             <td><a href="/Product/DeleteProduct/@item.ProductID" class="btn btn-outline-danger">Sil</a></td>
             <td><a href="/Product/UpdateProduct/@item.ProductID" class="btn btn-outline-success">Güncelle</a></td>
         </tr>

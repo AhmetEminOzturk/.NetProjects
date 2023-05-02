@@ -18,5 +18,8 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         public DbSet<Employee> Employees { get; set; }
         public DbSet<SaleTransaction> SaleTransactions { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<ProductDetail> ProductDetails { get; set; }
+        public DbSet<ToDo> ToDoList { get; set; }
+
     }
 }

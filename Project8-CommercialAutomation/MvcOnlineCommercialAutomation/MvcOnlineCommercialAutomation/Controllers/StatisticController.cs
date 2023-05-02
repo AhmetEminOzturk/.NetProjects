@@ -49,5 +49,51 @@ namespace MvcOnlineCommercialAutomation.Controllers
             //ViewBag.d16 = value16;
             return View();
         }
+
+        public ActionResult ShortcutTable()
+        {
+            var s = from x in c.CurrentAccounts
+                    group x by x.CurrentAccountCity into g
+                    select new Group
+                    {
+                        City = g.Key,
+                        Count = g.Count()
+                    };
+            return View(s.ToList());
+        }
+
+        public PartialViewResult Partial1()
+        {
+            var s2 = from x in c.Employees
+                    group x by x.Department.DepartmentName into g
+                    select new Group2
+                    {
+                        Department = g.Key,
+                        Count = g.Count()
+                    };
+            return PartialView(s2.ToList());
+        }
+        public PartialViewResult Partial2() 
+        {
+            var values = c.CurrentAccounts.ToList();
+            return PartialView(values);
+        }
+        public PartialViewResult Partial3() 
+        {
+            var values = c.Products.ToList();
+            return PartialView(values);
+        }
+        public PartialViewResult Partial4()
+        {
+            var s = from x in c.Products
+                    group x by x.Brand into g
+                    select new Group3
+                    {
+                        Brand = g.Key,
+                        Count = g.Count()
+                    };
+            return PartialView(s.ToList());
+        }
+        
     }
 }
