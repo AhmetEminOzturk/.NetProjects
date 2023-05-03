@@ -4,15 +4,16 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MvcOnlineCommercialAutomation.Models.Entities;
+using PagedList;
 
 namespace MvcOnlineCommercialAutomation.Controllers
 {
     public class CategoryController : Controller
     {
         Context c = new Context();
-        public ActionResult Index()
+        public ActionResult Index(int page = 1)
         {
-            var values = c.Categories.ToList();
+            var values = c.Categories.ToList().ToPagedList(page, 4);
             return View(values);
         }
 

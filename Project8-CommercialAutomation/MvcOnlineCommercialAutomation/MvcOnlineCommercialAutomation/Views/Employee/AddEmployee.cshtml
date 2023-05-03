@@ -6,18 +6,21 @@
 
 <h2>Personel İşlemleri</h2>
 <br />
-<form class="form-group" method="post">
-    <label>Personel Adı</label>
-    @Html.TextBoxFor(x => x.EmployeeName, new { @class = "form-control" })
-    <br />
-    <label>Personel Soyad</label>
-    @Html.TextBoxFor(x => x.EmployeeSurname, new { @class = "form-control" })
-    <br />
-    <label>Personel Görsel</label>
-    @Html.TextBoxFor(x => x.EmployeeImage, new { @class = "form-control" })
-    <br />
-    <label>Personel Departman</label>
-    @Html.DropDownListFor(x => x.DepartmentID, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
-    <br />
-    <button class="btn btn-outline-info">Kaydet</button>
-</form>
+@using (Html.BeginForm("AddEmployee", "Employee", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <form class="form-group" method="post">
+        <label>Personel Adı</label>
+        @Html.TextBoxFor(x => x.EmployeeName, new { @class = "form-control" })
+        <br />
+        <label>Personel Soyad</label>
+        @Html.TextBoxFor(x => x.EmployeeSurname, new { @class = "form-control" })
+        <br />
+        <label>Personel Departman</label>
+        @Html.DropDownListFor(x => x.DepartmentID, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
+        <br />
+        <label>Personel Görsel</label>
+        <input type="file" name="EmployeeImage" />
+        <br />
+        <button class="btn btn-outline-info">Kaydet</button>
+    </form>
+}

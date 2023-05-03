@@ -29,6 +29,10 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         [StringLength(50)]
         public string CurrentAccountMail { get; set; }
 
+        [Column(TypeName = "Varchar")]
+        [StringLength(20)]
+        public string CurrentAccountPassword { get; set; }
+
         public bool Status { get; set; }
 
         public ICollection<SaleTransaction> SaleTransactions { get; set; }

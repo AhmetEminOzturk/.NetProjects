@@ -45,8 +45,8 @@ namespace MvcOnlineCommercialAutomation.Controllers
             DateTime today = DateTime.Today;
             var value15 = c.SaleTransactions.Count(x=> x.Date == today).ToString();
             ViewBag.d15 = value15;
-            //var value16 = c.SaleTransactions.Where(x => x.Date == today).Sum(y => y.Amount).ToString();
-            //ViewBag.d16 = value16;
+            var value16 = c.SaleTransactions.Where(x => x.Date == today).Sum(y => (decimal?) y.Amount).ToString();
+            ViewBag.d16 = value16;
             return View();
         }
 

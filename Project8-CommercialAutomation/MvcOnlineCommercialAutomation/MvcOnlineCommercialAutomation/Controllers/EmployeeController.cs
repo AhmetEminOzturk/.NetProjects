@@ -1,6 +1,7 @@
 ﻿using MvcOnlineCommercialAutomation.Models.Entities;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Security.Cryptography;
@@ -34,6 +35,15 @@ namespace MvcOnlineCommercialAutomation.Controllers
         [HttpPost]
         public ActionResult AddEmployee(Employee p)
         {
+            if (Request.Files.Count>0)
+            {
+                string fileName = Path.GetFileName(Request.Files[0].FileName);
+                string extension = Path.GetExtension(Request.Files[0].FileName);
+                string path = "~/Image/" + fileName + extension;
+                Request.Files[0].SaveAs(Server.MapPath(path));
+                p.EmployeeImage = "/Image/" + fileName + extension;
+            }
+            
             c.Employees.Add(p);
             c.SaveChanges();
             return RedirectToAction("Index");
@@ -55,6 +65,17 @@ namespace MvcOnlineCommercialAutomation.Controllers
         [HttpPost]
         public ActionResult UpdateEmployee(Employee p)
         {
+
+            if (Request.Files.Count > 0)
+            {
+                string fileName = Path.GetFileName(Request.Files[0].FileName);
+                string extension = Path.GetExtension(Request.Files[0].FileName);
+                string path = "~/Image/" + fileName + extension;
+                Request.Files[0].SaveAs(Server.MapPath(path));
+                p.EmployeeImage = "/Image/" + fileName + extension;
+            }
+
+
             var value = c.Employees.Find(p.EmployeeID);
             value.EmployeeName = p.EmployeeName;
             value.EmployeeSurname = p.EmployeeSurname;

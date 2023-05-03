@@ -1,5 +1,7 @@
 ﻿@using MvcOnlineCommercialAutomation.Models.Entities
-@model List<Category>
+@using PagedList
+@using PagedList.Mvc 
+@model PagedList.IPagedList<Category>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
@@ -8,7 +10,6 @@
 <br />
 <table class="table table-bordered">
     <tr>
-        <th>ID</th>
         <th>Kategori Adı</th>
         <th>Güncelle</th>
         <th>Sil</th>
@@ -16,12 +17,12 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td>@item.CategoryID</td>
             <td>@item.CategoryName</td>
             <td><a href="/Category/EditCategory/@item.CategoryID" class="btn btn-outline-info">Güncelle</a></td>
             <td><a href="/Category/DeleteCategory/@item.CategoryID" class="btn btn-outline-danger">Sil</a></td>            
         </tr>
     }
 </table>
+@Html.PagedListPager((IPagedList)Model,page=>Url.Action("Index", new {page}))
 <a href="/Category/AddCategory/" class="btn btn-outline-success">Kategori Ekle</a>
 

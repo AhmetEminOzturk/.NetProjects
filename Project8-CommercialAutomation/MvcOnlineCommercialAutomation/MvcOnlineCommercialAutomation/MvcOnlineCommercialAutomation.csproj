@@ -53,6 +53,12 @@
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -127,13 +133,16 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AlertController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\CurrentAccountController.cs" />
+    <Compile Include="Controllers\CurrentAccountPanelController.cs" />
     <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InvoiceController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ProductDetail2Controller.cs" />
     <Compile Include="Controllers\ProductDetailController.cs" />
@@ -325,6 +334,7 @@
     <Content Include="Content\DataTables\images\sort_desc.png" />
     <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
     <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -2239,6 +2249,33 @@
     <Content Include="Templates\AdminLTE-3.0.4\plugins\toastr\toastr.min.css" />
     <Content Include="Templates\AdminLTE-3.0.4\plugins\toastr\toastr.min.js" />
     <Content Include="Templates\AdminLTE-3.0.4\starter.html" />
+    <Content Include="Templates\weblogin\css\font-awesome.css" />
+    <Content Include="Templates\weblogin\css\popup-box.css" />
+    <Content Include="Templates\weblogin\css\style.css" />
+    <Content Include="Templates\weblogin\fonts\fontawesome-webfont.svg" />
+    <Content Include="Templates\weblogin\images\bg.jpg" />
+    <Content Include="Templates\weblogin\index.html" />
+    <Content Include="Templates\weblogin\js\jquery-2.1.4.min.js" />
+    <Content Include="Templates\weblogin\js\jquery.magnific-popup.js" />
+    <Content Include="Templates\weblogin\w3layouts-License.txt" />
+    <Content Include="Templates\webpanel\.gitignore" />
+    <Content Include="Templates\webpanel\css\simple-sidebar.css" />
+    <Content Include="Templates\webpanel\gulpfile.js" />
+    <Content Include="Templates\webpanel\index.html" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Templates\webpanel\vendor\jquery\jquery.js" />
+    <Content Include="Templates\webpanel\vendor\jquery\jquery.min.js" />
+    <Content Include="Templates\webpanel\vendor\jquery\jquery.slim.js" />
+    <Content Include="Templates\webpanel\vendor\jquery\jquery.slim.min.js" />
     <Content Include="thumber\bio.html" />
     <Content Include="thumber\contact.html" />
     <Content Include="thumber\css\aos.css" />
@@ -2849,9 +2886,38 @@
     <Content Include="Views\Statistic\Partial4.cshtml" />
     <Content Include="Views\Employee\EmployeeList.cshtml" />
     <Content Include="Views\ToDo\Index.cshtml" />
+    <Content Include="Templates\weblogin\fonts\fontawesome-webfont.eot" />
+    <Content Include="Templates\weblogin\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Templates\weblogin\fonts\fontawesome-webfont.woff" />
+    <Content Include="Templates\weblogin\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Templates\weblogin\fonts\FontAwesome.otf" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Login\Partial1.cshtml" />
+    <Content Include="Templates\webpanel\.travis.yml" />
+    <Content Include="Templates\webpanel\LICENSE" />
+    <Content Include="Templates\webpanel\package-lock.json" />
+    <Content Include="Templates\webpanel\package.json" />
+    <Content Include="Templates\webpanel\README.md" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Templates\webpanel\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Templates\webpanel\vendor\jquery\jquery.min.map" />
+    <Content Include="Templates\webpanel\vendor\jquery\jquery.slim.min.map" />
+    <Content Include="Views\Shared\_CurrentAccountLayout.cshtml" />
+    <Content Include="Views\CurrentAccountPanel\Index.cshtml" />
+    <Content Include="Views\CurrentAccountPanel\Order.cshtml" />
+    <Content Include="Views\Alert\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Image\" />
     <Folder Include="Views\ProductDetail2\" />
   </ItemGroup>
   <ItemGroup>

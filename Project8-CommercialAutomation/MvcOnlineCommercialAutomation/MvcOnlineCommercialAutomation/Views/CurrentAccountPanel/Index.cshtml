@@ -1,0 +1,30 @@
+﻿@model MvcOnlineCommercialAutomation.Models.Entities.CurrentAccount
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_CurrentAccountLayout.cshtml";
+}
+
+<h2>Cari Bilgi Panel</h2>
+<br />
+
+@using (Html.BeginForm("Index2", "CurrentAccountPanel", FormMethod.Post))
+{
+    <table class="table table-hover">
+        <tr>
+            <td><label>Mail Adres : @HttpContext.Current.User.Identity.Name</label></td>
+        </tr>
+        <tr>
+            <td>@Html.TextBoxFor(x => x.CurrentAccountName, new { @class = "form-control" })</td>
+        </tr>
+        <tr>
+            <td>@Html.TextBoxFor(x => x.CurrentAccountSurname, new { @class = "form-control" })</td>
+        </tr>
+        <tr>
+            <td>@Html.TextBoxFor(x => x.CurrentAccountCity, new { @class = "form-control" })</td>
+        </tr>
+        <tr>         
+            <td>@Html.TextBoxFor(x => x.CurrentAccountPassword, new { @class = "form-control" })</td>
+        </tr>
+    </table>
+    <button class="btn btn-warning">Bilgilerimi Güncelle</button>
+}

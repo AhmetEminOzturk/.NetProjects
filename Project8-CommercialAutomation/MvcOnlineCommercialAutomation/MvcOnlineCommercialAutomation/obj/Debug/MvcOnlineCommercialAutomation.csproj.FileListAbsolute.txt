@@ -81,3 +81,7 @@ D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomati
 D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\obj\Debug\MvcOnlineCommercialAutomation.csproj.CopyComplete
 D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\obj\Debug\MvcOnlineCommercialAutomation.dll
 D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\obj\Debug\MvcOnlineCommercialAutomation.pdb
+D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\bin\PagedList.dll
+D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\bin\PagedList.Mvc.dll
+D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\bin\PagedList.xml
+D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\bin\PagedList.Mvc.xml
