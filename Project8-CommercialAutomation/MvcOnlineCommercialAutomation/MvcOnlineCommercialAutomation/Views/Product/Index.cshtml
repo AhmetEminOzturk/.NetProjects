@@ -24,6 +24,7 @@
         <th>Kategori</th>
         <th>Sil</th>
         <th>Güncelle</th>
+        <th>Saış Yap</th>
     </tr>
     @foreach (var item in Model)
     {
@@ -34,10 +35,11 @@
             <td>@item.PurchasePrice ₺</td>
             <td>@item.SalePrice ₺</td>
             <td>@item.Category.CategoryName</td>
-            <td><a href="/Product/DeleteProduct/@item.ProductID" class="btn btn-outline-danger">Sil</a></td>
-            <td><a href="/Product/UpdateProduct/@item.ProductID" class="btn btn-outline-success">Güncelle</a></td>
+            <td><a href="/Product/DeleteProduct/@item.ProductID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Product/UpdateProduct/@item.ProductID" class="btn btn-success">Güncelle</a></td>
+            <td><a href="/Product/Sale/@item.ProductID" class="btn btn-warning">Satış Yap</a></td>
         </tr>
     }
 </table>
-<a href="/Product/AddProduct" class="btn btn-outline-info">Yeni Ürün Ekle</a>
+<a href="/Product/AddProduct" class="btn btn-info">Yeni Ürün Ekle</a>
 

@@ -59,6 +59,9 @@
     <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
       <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="QRCoder">
+      <HintPath>C:\Users\emina\Downloads\QRCoder.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -146,11 +149,17 @@
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ProductDetail2Controller.cs" />
     <Compile Include="Controllers\ProductDetailController.cs" />
+    <Compile Include="Controllers\QRController.cs" />
     <Compile Include="Controllers\SaleTransactionController.cs" />
+    <Compile Include="Controllers\ShipmentController.cs" />
     <Compile Include="Controllers\StatisticController.cs" />
     <Compile Include="Controllers\ToDoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305041817448_shipment.cs" />
+    <Compile Include="Migrations\202305041817448_shipment.designer.cs">
+      <DependentUpon>202305041817448_shipment.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entities\Admin.cs" />
@@ -169,6 +178,8 @@
     <Compile Include="Models\Entities\ProductDetail.cs" />
     <Compile Include="Models\Entities\ProductDetail1.cs" />
     <Compile Include="Models\Entities\SaleTransaction.cs" />
+    <Compile Include="Models\Entities\ShipmentDetail.cs" />
+    <Compile Include="Models\Entities\ShipmentTrack.cs" />
     <Compile Include="Models\Entities\ToDo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -2914,6 +2925,11 @@
     <Content Include="Views\CurrentAccountPanel\Index.cshtml" />
     <Content Include="Views\CurrentAccountPanel\Order.cshtml" />
     <Content Include="Views\Alert\Index.cshtml" />
+    <Content Include="Views\Product\Sale.cshtml" />
+    <Content Include="Views\Shipment\Index.cshtml" />
+    <Content Include="Views\Shipment\AddShipment.cshtml" />
+    <Content Include="Views\Shipment\ShipmentDetail.cshtml" />
+    <Content Include="Views\QR\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2942,6 +2958,11 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202305041817448_shipment.resx">
+      <DependentUpon>202305041817448_shipment.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

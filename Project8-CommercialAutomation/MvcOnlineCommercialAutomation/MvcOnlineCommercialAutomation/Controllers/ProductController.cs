@@ -76,11 +76,34 @@ namespace MvcOnlineCommercialAutomation.Controllers
             c.SaveChanges();
             return RedirectToAction("Index");
         }
-
+        
         public ActionResult ProductReport()
         {
             var values = c.Products.ToList();
             return View(values);
+        }
+        [HttpGet]
+        public ActionResult Sale(int id)
+        {
+            List<SelectListItem> list1 = (from x in c.Employees.ToList()
+                                          select new SelectListItem
+                                          {
+                                              Text = x.EmployeeName + " " + x.EmployeeSurname,
+                                              Value = x.EmployeeID.ToString(),
+                                          }).ToList();
+            ViewBag.lst1 = list1;
+            var v1 = c.Products.Find(id);
+            ViewBag.v1 = v1.ProductID;
+            ViewBag.v2 = v1.SalePrice;
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Sale(SaleTransaction p)
+        {
+            p.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
+            c.SaleTransactions.Add(p);
+            c.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }

@@ -20,6 +20,8 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductDetail> ProductDetails { get; set; }
         public DbSet<ToDo> ToDoList { get; set; }
+        public DbSet<ShipmentDetail> ShipmentDetails { get; set; }
+        public DbSet<ShipmentTrack> ShipmentTracks { get; set; }
 
     }
 }

@@ -85,3 +85,6 @@ D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomati
 D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\bin\PagedList.Mvc.dll
 D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\bin\PagedList.xml
 D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\bin\PagedList.Mvc.xml
+D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\obj\Debug\MvcOnlineCommercialAutomation.Migrations.shipment.resources
+D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\obj\Debug\MvcOnlineCommercialAutomation.csproj.GenerateResource.cache
+D:\GitHub\.NetProjects\Project8-CommercialAutomation\MvcOnlineCommercialAutomation\MvcOnlineCommercialAutomation\bin\QRCoder.dll
