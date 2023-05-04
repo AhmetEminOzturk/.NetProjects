@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.DataAccessLayer", "Api.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.BusinessLayer", "Api.BusinessLayer\Api.BusinessLayer.csproj", "{A7C67A26-863E-4692-8712-A16A6FDAF01C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiConsumeLayer", "ApiConsumeLayer\ApiConsumeLayer.csproj", "{ECEC24B9-834A-4FC8-8E7E-0489A7675226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConsumeLayer", "ApiConsumeLayer\ApiConsumeLayer.csproj", "{ECEC24B9-834A-4FC8-8E7E-0489A7675226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiProject.RapidApi", "ApiProject.RapidApi\ApiProject.RapidApi.csproj", "{0FDA6D0E-7C6E-470F-A40A-341AB8A9F268}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{ECEC24B9-834A-4FC8-8E7E-0489A7675226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECEC24B9-834A-4FC8-8E7E-0489A7675226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECEC24B9-834A-4FC8-8E7E-0489A7675226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDA6D0E-7C6E-470F-A40A-341AB8A9F268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDA6D0E-7C6E-470F-A40A-341AB8A9F268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDA6D0E-7C6E-470F-A40A-341AB8A9F268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDA6D0E-7C6E-470F-A40A-341AB8A9F268}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
