@@ -71,5 +71,37 @@ namespace MvcOnlineCommercialAutomation.Controllers
             c.SaveChanges();
             return RedirectToAction("Index");
         }
+        public ActionResult DynamicInvoice()
+        {
+            DynamicInvoiceClass cs = new DynamicInvoiceClass();
+            cs.value1 = c.Invoices.ToList();
+            cs.value2 = c.InvoiceItems.ToList();
+            return View(cs);
+        }
+        public ActionResult InvoiceSave(string InvoiceSerialNo, string InvoiceSequenceNo, DateTime Date, string TaxOffice, string Time, string Deliverer, string Receiver, string Amount, InvoiceItem[] items)
+        {
+            Invoice f = new Invoice();
+            f.InvoiceSerialNo = InvoiceSerialNo;
+            f.InvoiceSequenceNo = InvoiceSequenceNo;
+            f.Date = Date;
+            f.TaxOffice = TaxOffice;
+            f.Time = Time;
+            f.Deliverer = Deliverer;
+            f.Receiver = Receiver;
+            f.Amount = decimal.Parse(Amount);
+            c.Invoices.Add(f);
+            foreach (var x in items)
+            {
+                InvoiceItem fk = new InvoiceItem();
+                fk.Description = x.Description;
+                fk.UnitPrice = x.UnitPrice;
+                fk.InvoiceID = x.InvoiceItemID;
+                fk.Quantity = x.Quantity;
+                fk.Amount = x.Amount;
+                c.InvoiceItems.Add(fk);
+            }
+            c.SaveChanges();
+            return Json("İşlem Başarılı", JsonRequestBehavior.AllowGet);
+        }
     }
 }
