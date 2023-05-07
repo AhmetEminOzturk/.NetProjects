@@ -143,6 +143,7 @@
     <Compile Include="Controllers\CurrentAccountPanelController.cs" />
     <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InvoiceController.cs" />
@@ -165,6 +166,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entities\Admin.cs" />
+    <Compile Include="Models\Entities\CascadingClass.cs" />
     <Compile Include="Models\Entities\Category.cs" />
     <Compile Include="Models\Entities\ChartGroup.cs" />
     <Compile Include="Models\Entities\Context.cs" />
@@ -2944,6 +2946,12 @@
     <Content Include="Views\CurrentAccountPanel\OutboxMessage.cshtml" />
     <Content Include="Views\CurrentAccountPanel\MessageDetail.cshtml" />
     <Content Include="Views\CurrentAccountPanel\NewMessage.cshtml" />
+    <Content Include="Views\CurrentAccountPanel\TrackOrder.cshtml" />
+    <Content Include="Views\CurrentAccountPanel\CurrentAccountOrderTrack.cshtml" />
+    <Content Include="Views\CurrentAccountPanel\Partial1.cshtml" />
+    <Content Include="Views\CurrentAccountPanel\Partial2.cshtml" />
+    <Content Include="Views\Error\PageError.cshtml" />
+    <Content Include="Views\Category\Cascading.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

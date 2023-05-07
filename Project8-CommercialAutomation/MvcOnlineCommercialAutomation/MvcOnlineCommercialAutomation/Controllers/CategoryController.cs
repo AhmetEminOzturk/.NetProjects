@@ -51,5 +51,25 @@ namespace MvcOnlineCommercialAutomation.Controllers
             c.SaveChanges();
             return RedirectToAction("Index");
         }
+        public ActionResult Cascading()
+        {
+            CascadingClass cs = new CascadingClass();
+            cs.Category = new SelectList(c.Categories, "CategoryID", "CategoryName");
+            cs.Product = new SelectList(c.Products, "ProductID", "ProductName");
+            return View(cs);
+        }
+        public JsonResult GetProduct(int p)
+        {
+            var productList = (from x in c.Products
+                               join y in c.Categories
+                               on x.Category.CategoryID equals y.CategoryID
+                               where x.Category.CategoryID == p
+                               select new
+                               {
+                                   Text = x.ProductName,
+                                   Value = x.ProductID.ToString()
+                               }).ToList();
+            return Json(productList, JsonRequestBehavior.AllowGet);
+        }
     }
 }
