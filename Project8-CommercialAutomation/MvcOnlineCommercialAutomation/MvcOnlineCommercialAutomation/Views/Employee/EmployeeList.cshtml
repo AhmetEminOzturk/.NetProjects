@@ -5,7 +5,6 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>EmployeeList</h2>
 
 <!DOCTYPE html>
 <html>
@@ -57,10 +56,10 @@
                                         <div class="row">
                                             <div class="col-7">
                                                 <h2 class="lead"><b>@x.EmployeeName @x.EmployeeSurname</b></h2>
-                                                <p class="text-muted text-sm"><b>About: </b> Web Designer / UX / Graphic Artist / Coffee Lover </p>
+                                                <p class="text-muted text-sm"><b>Hakkımda: </b> @x.EmployeeAbout </p>
                                                 <ul class="ml-4 mb-0 fa-ul text-muted">
-                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Address: Demo Street 123, Demo City 04312, NJ</li>
-                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Phone #: + 800 - 12 12 23 52</li>
+                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Adres: @x.EmployeeAdress</li>
+                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Tel: @x.EmployeePhone</li>
                                                 </ul>
                                             </div>
                                             <div class="col-5 text-center">

@@ -164,6 +164,10 @@
     <Compile Include="Migrations\202305041817448_shipment.designer.cs">
       <DependentUpon>202305041817448_shipment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305092301058_mig_employee.cs" />
+    <Compile Include="Migrations\202305092301058_mig_employee.designer.cs">
+      <DependentUpon>202305092301058_mig_employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entities\Admin.cs" />
     <Compile Include="Models\Entities\CascadingClass.cs" />
@@ -2988,6 +2992,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202305041817448_shipment.resx">
       <DependentUpon>202305041817448_shipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305092301058_mig_employee.resx">
+      <DependentUpon>202305092301058_mig_employee.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

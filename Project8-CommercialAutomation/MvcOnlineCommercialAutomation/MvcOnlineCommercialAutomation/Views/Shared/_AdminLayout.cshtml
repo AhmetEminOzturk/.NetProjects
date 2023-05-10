@@ -47,11 +47,11 @@
                     <div class="nav">
                         <div class="sb-sidenav-menu-heading">İşlemler</div>
                         <a class="nav-link" href="/Category/Index/">
-                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-braille"></i></div>
                             Kategoriler
                         </a>
                         <a class="nav-link" href="/Product/Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-flask"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-gift"></i></div>
                             Ürünler
                         </a>
                         <a class="nav-link" href="/Department/Index">
@@ -63,7 +63,7 @@
                             Cariler
                         </a>
                         <a class="nav-link" href="/Employee/Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-street-view"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
                             Personeller
                         </a>
 
@@ -90,35 +90,31 @@
                             Satışlar
                         </a>
                         <a class="nav-link" href="/Invoice/Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-calender"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-microchip"></i></div>
                             Faturalar
                         </a>
                         <a class="nav-link" href="/Invoice/DynamicInvoice">
-                            <div class="sb-nav-link-icon"><i class="fas fa-calender"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-briefcase"></i></div>
                             Dinamik Faturalar
                         </a>
                         <a class="nav-link" href="/Employee/EmployeeList">
                             <div class="sb-nav-link-icon"><i class="fas fa-people-carry"></i></div>
                             Personel Tablosu
                         </a>
-                        <a class="nav-link" href="/Payment/Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-money"></i></div>
-                            Giderler
-                        </a>
                         <a class="nav-link" href="/Shipment/Index">
                             <div class="sb-nav-link-icon"><i class="fas fa-truck"></i></div>
                             Kargo
+                        </a>
+                        <a class="nav-link" href="/QR/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-puzzle-piece"></i></div>
+                            QR
                         </a>
                         <a class="nav-link" href="/Product/ProductReport">
                             <div class="sb-nav-link-icon"><i class="fas fa-print"></i></div>
                             Pdf & Excel Rapor
                         </a>
-                        <a class="nav-link" href="/Alert/Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-bell"></i></div>
-                            Alertler
-                        </a>
                         <a class="nav-link" href="/Statistic/Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-bar-chart"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-percent"></i></div>
                             İstatistikler
                         </a>
                         <a class="nav-link" href="/Gallery/Index">
@@ -126,8 +122,12 @@
                             Galeri
                         </a>
                         <a class="nav-link" href="/ProductDetail/Index">
-                            <div class="sb-nav-link-icon"><i class="fas fa-trello"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-database"></i></div>
                             Ürün Detay
+                        </a>
+                        <a class="nav-link" href="/ToDo/Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-id-badge"></i></div>
+                            Ajanda
                         </a>
                         @if (User.IsInRole("A"))
                         {

@@ -23,6 +23,19 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         [Column(TypeName = "Varchar")]
         [StringLength(300)]
         public string EmployeeImage { get; set; }
+
+        [Column(TypeName = "Varchar")]
+        [StringLength(300)]
+        public string EmployeeAbout { get; set; }
+
+        [Column(TypeName = "Varchar")]
+        [StringLength(300)]
+        public string EmployeeAdress { get; set; }
+
+        [Column(TypeName = "Varchar")]
+        [StringLength(20)]
+        public string EmployeePhone { get; set; }
+
         public ICollection<SaleTransaction> SaleTransactions { get; set; }
 
         public int DepartmentID { get; set; }
