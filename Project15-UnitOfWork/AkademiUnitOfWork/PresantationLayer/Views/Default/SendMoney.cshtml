@@ -1,0 +1,22 @@
+﻿@model CustomerViewModel
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+
+<div class="container">
+    <form method="post">
+        <br /><br />
+        <label>Gönderen Müşteri Adı</label>
+        <input type="text" class="form-control" asp-for="SenderID" />
+        <br />
+        <label>Alıcı Müşteri Adı</label>
+        <input type="text" class="form-control" asp-for="ReceiverID" />
+        <br />
+        <label>Gönderilecek Tutar</label>
+        <input type="text" class="form-control" asp-for="Amount" />
+        <br />
+        <button class="btn btn-success">Yolla</button>
+    </form>
+</div>

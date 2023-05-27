@@ -1,0 +1,18 @@
+﻿@model EntityLayer.Concrete.Customer
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<div class="container">
+    <form method="post">
+        <br /><br />
+        <label>Müşteri Adı</label>
+        <input type="text" class="form-control" asp-for="CustomerName" />
+        <br />
+        <label>Müşteri Bakiyesi</label>
+        <input type="text" class="form-control" asp-for="CustomerBalance" />
+        <br />
+        <button class="btn btn-success">Müşteri Ekle</button>
+    </form>
+</div>
