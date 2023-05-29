@@ -1,0 +1,12 @@
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\bin\Debug\net6.0\AkademiDto.EntityLayer.deps.json
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\bin\Debug\net6.0\AkademiDto.EntityLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\bin\Debug\net6.0\AkademiDto.EntityLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\obj\Debug\net6.0\AkademiDto.EntityLayer.csproj.AssemblyReference.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\obj\Debug\net6.0\AkademiDto.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\obj\Debug\net6.0\AkademiDto.EntityLayer.AssemblyInfoInputs.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\obj\Debug\net6.0\AkademiDto.EntityLayer.AssemblyInfo.cs
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\obj\Debug\net6.0\AkademiDto.EntityLayer.csproj.CoreCompileInputs.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\obj\Debug\net6.0\AkademiDto.EntityLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\obj\Debug\net6.0\refint\AkademiDto.EntityLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\obj\Debug\net6.0\AkademiDto.EntityLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\EntityLayer\obj\Debug\net6.0\ref\AkademiDto.EntityLayer.dll

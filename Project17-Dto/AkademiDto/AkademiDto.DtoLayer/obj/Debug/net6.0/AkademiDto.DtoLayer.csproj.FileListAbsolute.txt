@@ -1,0 +1,12 @@
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\bin\Debug\net6.0\AkademiDto.DtoLayer.deps.json
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\bin\Debug\net6.0\AkademiDto.DtoLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\bin\Debug\net6.0\AkademiDto.DtoLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\obj\Debug\net6.0\AkademiDto.DtoLayer.csproj.AssemblyReference.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\obj\Debug\net6.0\AkademiDto.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\obj\Debug\net6.0\AkademiDto.DtoLayer.AssemblyInfoInputs.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\obj\Debug\net6.0\AkademiDto.DtoLayer.AssemblyInfo.cs
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\obj\Debug\net6.0\AkademiDto.DtoLayer.csproj.CoreCompileInputs.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\obj\Debug\net6.0\AkademiDto.DtoLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\obj\Debug\net6.0\refint\AkademiDto.DtoLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\obj\Debug\net6.0\AkademiDto.DtoLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DtoLayer\obj\Debug\net6.0\ref\AkademiDto.DtoLayer.dll

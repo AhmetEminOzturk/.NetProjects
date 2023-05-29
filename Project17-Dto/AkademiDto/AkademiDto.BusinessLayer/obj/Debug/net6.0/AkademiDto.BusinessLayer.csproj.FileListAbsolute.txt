@@ -1,0 +1,17 @@
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\bin\Debug\net6.0\AkademiDto.BusinessLayer.deps.json
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\bin\Debug\net6.0\AkademiDto.BusinessLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\bin\Debug\net6.0\AkademiDto.BusinessLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\AkademiDto.BusinessLayer.csproj.AssemblyReference.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\AkademiDto.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\AkademiDto.BusinessLayer.AssemblyInfoInputs.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\AkademiDto.BusinessLayer.AssemblyInfo.cs
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\AkademiDto.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\AkademiDto.BusinessLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\refint\AkademiDto.BusinessLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\AkademiDto.BusinessLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\ref\AkademiDto.BusinessLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\bin\Debug\net6.0\AkademiDto.DataAccessLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\bin\Debug\net6.0\AkademiDto.EntityLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\bin\Debug\net6.0\AkademiDto.DataAccessLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\bin\Debug\net6.0\AkademiDto.EntityLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.BusinessLayer\obj\Debug\net6.0\AkademiDto.BusinessLayer.csproj.CopyComplete

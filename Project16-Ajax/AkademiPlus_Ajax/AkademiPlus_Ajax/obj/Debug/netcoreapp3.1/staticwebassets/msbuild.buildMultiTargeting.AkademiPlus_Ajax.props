@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AkademiPlus_Ajax.props" />
+</Project>

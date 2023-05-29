@@ -1,0 +1,17 @@
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\bin\Debug\net6.0\AkademiDto.DataAccessLayer.deps.json
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\bin\Debug\net6.0\AkademiDto.DataAccessLayer.runtimeconfig.json
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\bin\Debug\net6.0\AkademiDto.DataAccessLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\bin\Debug\net6.0\AkademiDto.DataAccessLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\bin\Debug\net6.0\AkademiDto.EntityLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\bin\Debug\net6.0\AkademiDto.EntityLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\AkademiDto.DataAccessLayer.csproj.AssemblyReference.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\AkademiDto.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\AkademiDto.DataAccessLayer.AssemblyInfoInputs.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\AkademiDto.DataAccessLayer.AssemblyInfo.cs
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\AkademiDto.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\AkademiDto.DataAccessLayer.csproj.CopyComplete
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\AkademiDto.DataAccessLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\refint\AkademiDto.DataAccessLayer.dll
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\AkademiDto.DataAccessLayer.pdb
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\AkademiDto.DataAccessLayer.genruntimeconfig.cache
+D:\GitHub\.NetProjects\Project17-Dto\AkademiDto\AkademiDto.DataAccessLayer\obj\Debug\net6.0\ref\AkademiDto.DataAccessLayer.dll
