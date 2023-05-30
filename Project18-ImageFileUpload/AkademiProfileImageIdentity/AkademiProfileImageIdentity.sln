@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiProfileImageIdentity", "AkademiProfileImageIdentity\AkademiProfileImageIdentity.csproj", "{97E817F1-5B42-4089-A4E7-F5687A818766}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97E817F1-5B42-4089-A4E7-F5687A818766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E817F1-5B42-4089-A4E7-F5687A818766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E817F1-5B42-4089-A4E7-F5687A818766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E817F1-5B42-4089-A4E7-F5687A818766}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {985AD233-21CA-4487-8E24-167947D41DB7}
+	EndGlobalSection
+EndGlobal
