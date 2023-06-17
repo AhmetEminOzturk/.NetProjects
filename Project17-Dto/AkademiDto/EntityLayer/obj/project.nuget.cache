@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iOeiQUrOUyWTlaib/3yZqOMmwViYPCQZ1uCGAwmSX/YkFK+DaG95wZcLgX/HGq/7lXFM1VOLxZz1kD+a2BSYYw==",
+  "dgSpecHash": "7on036Wz7CuqkKxR6SjUphIGV8eLzaCPcfZiG+p4Sd8dXgPXIpe8dtlLBPngztMWeHenDIcU2WftG0iyT+FxDA==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj",
+  "projectFilePath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

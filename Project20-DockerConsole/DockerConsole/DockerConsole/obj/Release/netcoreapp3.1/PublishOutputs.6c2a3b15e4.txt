@@ -1,0 +1,5 @@
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\publish\DockerConsole.exe
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\publish\DockerConsole.dll
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\publish\DockerConsole.deps.json
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\publish\DockerConsole.runtimeconfig.json
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\publish\DockerConsole.pdb

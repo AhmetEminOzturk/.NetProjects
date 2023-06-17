@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\AgriculturePresentation.csproj": {}
+    "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\AgriculturePresentation.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\AgriculturePresentation.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\AgriculturePresentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\AgriculturePresentation.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\AgriculturePresentation.csproj",
         "projectName": "AgriculturePresentation",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\AgriculturePresentation.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\AgriculturePresentation.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\AgriculturePresentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,21 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -119,24 +119,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -145,18 +145,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -200,24 +199,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -226,15 +225,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -294,24 +292,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project4-Agriculture-MVC-Core-CodeFirst\\AgriculturePresentation\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -320,7 +318,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -376,7 +373,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

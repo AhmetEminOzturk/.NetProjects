@@ -1,0 +1,12 @@
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\bin\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.deps.json
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\bin\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.dll
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\bin\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.pdb
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.csproj.AssemblyReference.cache
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.AssemblyInfoInputs.cache
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.AssemblyInfo.cs
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.csproj.CoreCompileInputs.cache
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.dll
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\refint\AcademyPlusMicroServiceProject.Order.Domain.dll
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\AcademyPlusMicroServiceProject.Order.Domain.pdb
+C:\GitHub\.NetProjects\Project21-MicroService\AcademyPlusMicroServiceProject\Services\Order\AcademyPlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\ref\AcademyPlusMicroServiceProject.Order.Domain.dll

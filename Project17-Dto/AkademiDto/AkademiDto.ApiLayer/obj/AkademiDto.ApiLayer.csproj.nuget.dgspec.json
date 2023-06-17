@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\AkademiDto.ApiLayer.csproj": {}
+    "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\AkademiDto.ApiLayer.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\AkademiDto.ApiLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\AkademiDto.ApiLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\AkademiDto.ApiLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\AkademiDto.ApiLayer.csproj",
         "projectName": "AkademiDto.ApiLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\AkademiDto.ApiLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\AkademiDto.ApiLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.ApiLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,24 +26,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj"
               }
             }
           }
@@ -106,24 +106,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj",
         "projectName": "AkademiDto.BusinessLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\AkademiDto.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -132,18 +132,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj"
               }
             }
           }
@@ -173,24 +172,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj",
         "projectName": "AkademiDto.DataAccessLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\AkademiDto.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -199,15 +198,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj"
               }
             }
           }
@@ -259,24 +257,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj",
         "projectName": "AkademiDto.DtoLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\AkademiDto.DtoLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\AkademiDto.DtoLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -285,7 +283,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -319,24 +316,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj",
         "projectName": "AkademiDto.EntityLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\AkademiDto.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project17-Dto\\AkademiDto\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -345,7 +342,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -379,7 +375,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

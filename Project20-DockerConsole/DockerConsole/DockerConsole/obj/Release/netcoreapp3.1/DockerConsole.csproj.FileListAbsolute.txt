@@ -1,0 +1,14 @@
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\DockerConsole.exe
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\DockerConsole.deps.json
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\DockerConsole.runtimeconfig.json
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\DockerConsole.runtimeconfig.dev.json
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\DockerConsole.dll
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\bin\Release\netcoreapp3.1\DockerConsole.pdb
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\obj\Release\netcoreapp3.1\DockerConsole.csproj.AssemblyReference.cache
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\obj\Release\netcoreapp3.1\DockerConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\obj\Release\netcoreapp3.1\DockerConsole.AssemblyInfoInputs.cache
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\obj\Release\netcoreapp3.1\DockerConsole.AssemblyInfo.cs
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\obj\Release\netcoreapp3.1\DockerConsole.csproj.CoreCompileInputs.cache
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\obj\Release\netcoreapp3.1\DockerConsole.dll
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\obj\Release\netcoreapp3.1\DockerConsole.pdb
+C:\GitHub\.NetProjects\Project20-DockerConsole\DockerConsole\DockerConsole\obj\Release\netcoreapp3.1\DockerConsole.genruntimeconfig.cache

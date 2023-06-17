@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q2PW7360Lt1F4V/OyW98OEpY1FYDrSVBWcKoEIP2VTSZLpUXoirvnn6wqfErzYMcvtK8qPnwhi9/FKocmn6s6A==",
+  "dgSpecHash": "LJ+WvHRPE2/3koNOJdK+vNKT0DUNtlFidlaz5QwwC1XPh8PEooJ7+FlN15V9TJtwkPGJdyQOKsNZ/K3MQUuDtA==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\.NetProjects\\Project19-SignalR\\AkademiPlusSignalR.API\\AkademiPlusSignalR.Client\\AkademiPlusSignalR.Client.csproj",
+  "projectFilePath": "C:\\GitHub\\.NetProjects\\Project19-SignalR\\AkademiPlusSignalR.API\\AkademiPlusSignalR.Client\\AkademiPlusSignalR.Client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xl/FN+W5fUNPjMpjuTxkM09RQhSA+L4bxZX7xUPz2s1bsRbMqoCmCDDLtqJUqOu5sONOExtf0ZZaj83qEozQLw==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\.NetProjects\\Project20-DockerConsole\\DockerConsole\\DockerConsole\\DockerConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eAo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512"
+  ],
+  "logs": []
+}
