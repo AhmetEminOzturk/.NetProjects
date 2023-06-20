@@ -1,0 +1,10 @@
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\bin\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.deps.json
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\bin\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\bin\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.pdb
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.csproj.AssemblyReference.cache
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.AssemblyInfoInputs.cache
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.AssemblyInfo.cs
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.csproj.CoreCompileInputs.cache
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Shared\APlusMicroServiceProject.Shared\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.pdb

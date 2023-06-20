@@ -1,0 +1,12 @@
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\bin\Debug\net5.0\APlusMicroServiceProject.Order.Domain.deps.json
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\bin\Debug\net5.0\APlusMicroServiceProject.Order.Domain.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\bin\Debug\net5.0\APlusMicroServiceProject.Order.Domain.pdb
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\APlusMicroServiceProject.Order.Domain.csproj.AssemblyReference.cache
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\APlusMicroServiceProject.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\APlusMicroServiceProject.Order.Domain.AssemblyInfoInputs.cache
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\APlusMicroServiceProject.Order.Domain.AssemblyInfo.cs
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\APlusMicroServiceProject.Order.Domain.csproj.CoreCompileInputs.cache
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\APlusMicroServiceProject.Order.Domain.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\refint\APlusMicroServiceProject.Order.Domain.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\APlusMicroServiceProject.Order.Domain.pdb
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Order\APlusMicroServiceProject.Order.Domain\obj\Debug\net5.0\ref\APlusMicroServiceProject.Order.Domain.dll

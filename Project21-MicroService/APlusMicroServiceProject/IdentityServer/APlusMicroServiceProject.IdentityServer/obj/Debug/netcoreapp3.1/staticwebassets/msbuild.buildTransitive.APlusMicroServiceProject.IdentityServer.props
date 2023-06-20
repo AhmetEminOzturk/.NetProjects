@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\APlusMicroServiceProject.IdentityServer.props" />
+</Project>
