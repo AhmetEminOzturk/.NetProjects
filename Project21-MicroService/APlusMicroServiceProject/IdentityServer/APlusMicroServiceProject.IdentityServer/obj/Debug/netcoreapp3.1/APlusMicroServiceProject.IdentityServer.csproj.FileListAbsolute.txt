@@ -140,3 +140,5 @@ C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\IdentityS
 C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\IdentityServer\APlusMicroServiceProject.IdentityServer\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.IdentityServer.dll
 C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\IdentityServer\APlusMicroServiceProject.IdentityServer\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.IdentityServer.pdb
 C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\IdentityServer\APlusMicroServiceProject.IdentityServer\obj\Debug\netcoreapp3.1\APlusMicroServiceProject.IdentityServer.genruntimeconfig.cache
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\IdentityServer\APlusMicroServiceProject.IdentityServer\bin\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\IdentityServer\APlusMicroServiceProject.IdentityServer\bin\Debug\netcoreapp3.1\APlusMicroServiceProject.Shared.pdb

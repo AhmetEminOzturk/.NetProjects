@@ -25,29 +25,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{53C1D4E5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{2E8F325E-3B80-4A40-8891-B00262CD47E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Catalog", "Services\Catalog\APlusMicroServiceProject.Catalog\APlusMicroServiceProject.Catalog.csproj", "{0DD1F86A-FD82-40E5-B2A9-ED1A92FC3D5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Catalog", "Services\Catalog\APlusMicroServiceProject.Catalog\APlusMicroServiceProject.Catalog.csproj", "{0DD1F86A-FD82-40E5-B2A9-ED1A92FC3D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Basket", "Services\Basket\APlusMicroServiceProject.Basket\APlusMicroServiceProject.Basket.csproj", "{00901FE5-F2FA-451A-A59D-BD2E8A0402D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Basket", "Services\Basket\APlusMicroServiceProject.Basket\APlusMicroServiceProject.Basket.csproj", "{00901FE5-F2FA-451A-A59D-BD2E8A0402D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Discount", "Services\Discount\APlusMicroServiceProject.Discount\APlusMicroServiceProject.Discount.csproj", "{5F7DD615-0F2D-4C31-8A63-1FC6AB219554}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Discount", "Services\Discount\APlusMicroServiceProject.Discount\APlusMicroServiceProject.Discount.csproj", "{5F7DD615-0F2D-4C31-8A63-1FC6AB219554}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Order", "Services\Order\APlusMicroServiceProject.Order\APlusMicroServiceProject.Order.csproj", "{4BF3C21E-EAC7-411D-892E-8FF8083BC9ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Order", "Services\Order\APlusMicroServiceProject.Order\APlusMicroServiceProject.Order.csproj", "{4BF3C21E-EAC7-411D-892E-8FF8083BC9ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Order.Application", "Services\Order\APlusMicroServiceProject.Order.Application\APlusMicroServiceProject.Order.Application.csproj", "{623247D5-8283-463C-881A-457F90520ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Order.Application", "Services\Order\APlusMicroServiceProject.Order.Application\APlusMicroServiceProject.Order.Application.csproj", "{623247D5-8283-463C-881A-457F90520ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Order.Domain", "Services\Order\APlusMicroServiceProject.Order.Domain\APlusMicroServiceProject.Order.Domain.csproj", "{C2B33D3D-A184-4595-9FF9-0F08D2776C0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Order.Domain", "Services\Order\APlusMicroServiceProject.Order.Domain\APlusMicroServiceProject.Order.Domain.csproj", "{C2B33D3D-A184-4595-9FF9-0F08D2776C0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Order.Domain.Core", "Services\Order\APlusMicroServiceProject.Order.Domain.Core\APlusMicroServiceProject.Order.Domain.Core.csproj", "{E59208C4-AA6D-49E7-8F52-EF80573B14A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Order.Domain.Core", "Services\Order\APlusMicroServiceProject.Order.Domain.Core\APlusMicroServiceProject.Order.Domain.Core.csproj", "{E59208C4-AA6D-49E7-8F52-EF80573B14A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Order.Domain.Infrastructure", "Services\Order\APlusMicroServiceProject.Order.Domain.Infrastructure\APlusMicroServiceProject.Order.Domain.Infrastructure.csproj", "{A1D2E7B2-1B73-46CC-8D91-46CB27344255}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Order.Domain.Infrastructure", "Services\Order\APlusMicroServiceProject.Order.Domain.Infrastructure\APlusMicroServiceProject.Order.Domain.Infrastructure.csproj", "{A1D2E7B2-1B73-46CC-8D91-46CB27344255}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.PhotoStock", "Services\PhotoStock\APlusMicroServiceProject.PhotoStock\APlusMicroServiceProject.PhotoStock.csproj", "{13DD245F-8778-4FDB-AEA1-10431F35DD21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.PhotoStock", "Services\PhotoStock\APlusMicroServiceProject.PhotoStock\APlusMicroServiceProject.PhotoStock.csproj", "{13DD245F-8778-4FDB-AEA1-10431F35DD21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.FakePayment", "Services\FakePayment\APlusMicroServiceProject.FakePayment\APlusMicroServiceProject.FakePayment.csproj", "{D5DDC520-F563-42A2-B5BC-5B40F0960594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.FakePayment", "Services\FakePayment\APlusMicroServiceProject.FakePayment\APlusMicroServiceProject.FakePayment.csproj", "{D5DDC520-F563-42A2-B5BC-5B40F0960594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Frontend", "Frontends\APlusMicroServiceProject.Frontend\APlusMicroServiceProject.Frontend.csproj", "{1F832461-BEC0-4B0E-A37F-B2F089F6B71C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Frontend", "Frontends\APlusMicroServiceProject.Frontend\APlusMicroServiceProject.Frontend.csproj", "{1F832461-BEC0-4B0E-A37F-B2F089F6B71C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APlusMicroServiceProject.Shared", "Shared\APlusMicroServiceProject.Shared\APlusMicroServiceProject.Shared.csproj", "{161C073C-43E2-4DC7-AA9B-4E6CF0D04CFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.Shared", "Shared\APlusMicroServiceProject.Shared\APlusMicroServiceProject.Shared.csproj", "{161C073C-43E2-4DC7-AA9B-4E6CF0D04CFE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APlusMicroServiceProject.IdentityServer", "IdentityServer\APlusMicroServiceProject.IdentityServer\APlusMicroServiceProject.IdentityServer.csproj", "{3E23E044-C9D6-43E4-B8B5-6F7E8EFBD2C9}"
 EndProject
