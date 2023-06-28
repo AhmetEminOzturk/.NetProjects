@@ -50,9 +50,24 @@ namespace APlusMicroServiceProject.IdentityServer
                     ClientName = "AkademiPlus",
                     ClientId = "AkademiPlusClient",
                     ClientSecrets = {new Secret ("secret".Sha256())},
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,//Clientın sahip olduğu değerleri getir
                     AllowedScopes = { "catalog_fullpermission" , "photostock_fullpermission" , IdentityServerConstants.LocalApi.ScopeName }
-                }
+                },
+                new Client
+                {
+                    ClientName = "AkademiPlus",
+                    ClientId = "AkademiPlusClientForUser",
+                    AllowOfflineAccess = true,
+                    ClientSecrets = {new Secret ("secret".Sha256())},
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+                    AllowedScopes = { "catalog_fullpermission" , "photostock_fullpermission" ,
+                        IdentityServerConstants.StandardScopes.Email,
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.OfflineAccess,
+                        IdentityServerConstants.LocalApi.ScopeName },
+                    AccessTokenLifetime = 300 //saniye cinsinden                   
+                },
             };
     }
 }

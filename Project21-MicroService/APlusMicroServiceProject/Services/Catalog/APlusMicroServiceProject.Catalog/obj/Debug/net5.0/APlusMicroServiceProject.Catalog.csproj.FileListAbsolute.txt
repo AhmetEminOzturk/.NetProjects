@@ -55,3 +55,10 @@ C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\
 C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\obj\Debug\net5.0\APlusMicroServiceProject.Catalog.pdb
 C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\obj\Debug\net5.0\APlusMicroServiceProject.Catalog.genruntimeconfig.cache
 C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\obj\Debug\net5.0\ref\APlusMicroServiceProject.Catalog.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\GitHub\.NetProjects\Project21-MicroService\APlusMicroServiceProject\Services\Catalog\APlusMicroServiceProject.Catalog\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

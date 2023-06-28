@@ -1,10 +1,12 @@
 using APlusMicroServiceProject.Catalog.Services.Abstract;
 using APlusMicroServiceProject.Catalog.Services.Concrete;
 using APlusMicroServiceProject.Catalog.Settings;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -30,6 +32,13 @@ namespace APlusMicroServiceProject.Catalog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+            {
+                options.Authority = Configuration["IdentityServerURL"];
+                options.Audience = "resource_catalog";
+                options.RequireHttpsMetadata = false;
+            });
+
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddAutoMapper(typeof(Startup));
@@ -41,7 +50,10 @@ namespace APlusMicroServiceProject.Catalog
             });
 
 
-            services.AddControllers();
+            services.AddControllers(options =>
+            {
+                options.Filters.Add(new AuthorizeFilter()); // Katalog Mservisindeki herþeyi Token'a tabi tutacak
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "APlusMicroServiceProject.Catalog", Version = "v1" });
@@ -62,6 +74,7 @@ namespace APlusMicroServiceProject.Catalog
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
