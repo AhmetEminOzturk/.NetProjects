@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj": {}
+    "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj",
         "projectName": "Api.BusinessLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj"
               }
             }
           }
@@ -89,24 +88,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj",
         "projectName": "Api.DataAccessLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -115,15 +114,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj"
               }
             }
           }
@@ -175,24 +173,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj",
         "projectName": "Api.EntityLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -201,7 +199,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -257,24 +254,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj": {
+    "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj",
+        "projectUniqueName": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj",
         "projectName": "Api.PresentationLayer",
-        "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj",
-        "packagesPath": "C:\\Users\\emina\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\obj\\",
+        "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\Api.PresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\eAo\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eAo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -283,21 +280,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.BusinessLayer\\Api.BusinessLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.DataAccessLayer\\Api.DataAccessLayer.csproj"
               },
-              "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj": {
-                "projectPath": "D:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj"
+              "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\.NetProjects\\Project9-ApiProject\\ApiProject\\Api.EntityLayer\\Api.EntityLayer.csproj"
               }
             }
           }
@@ -356,7 +353,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
